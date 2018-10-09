@@ -2,7 +2,7 @@
 ## 关于这个仓库
 1. readme的格式以及部分答案参考 [kamyu104](https://github.com/kamyu104/LeetCode)。
 2. 部分解法来自社区
-3.短期内在使用python3在进行刷题
+3. 短期内在使用python3在进行刷题
 
 ## 算法
 * [Hash](https://github.com/tangdoufeitang/leetcode#hash)
