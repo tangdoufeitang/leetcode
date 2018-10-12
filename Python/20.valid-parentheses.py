@@ -48,6 +48,20 @@ class Solution:
         		return False
         return len(stack) == 0
 
+    def isValid2(self, s):
+    	lens, remainder = divmod(len(s), 2)
+    	if remainder != 0:
+    		return False
+    	else:
+    		for i in range(lens):
+    			if '()' or '[]' or '{}' in s:
+    				s = s.replace("()","")
+    				s = s.replace("[]","")
+    				s = s.replace("{}","")
+    		if s:
+    			return False
+    		return True
+
 
 if __name__ == '__main__':
 	print(Solution().isValid('{}{}()'))
