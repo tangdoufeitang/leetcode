@@ -46,6 +46,21 @@ class Solution:
     		return
     	for i in range(index, len(nums)):
     		self.dfs(nums, target - nums[i], i, path + [nums[i]], res)
+ class Solution:
+    def combinationSum(self, candidates, target):
+      res = []
+      candidates.sort()
+      def dfs(remain, ele):
+        if not remain: #当逐步相减至恰好为0的时候
+          res.append(ele)
+        else:
+          for item in candidates: #每一次都对所有元素遍历，广度优先遍历
+            if item > remain: #当前项大于剩余值时，循环停止
+              break
+            elif not ele or item >= ele[-1]:
+              dfs(remain - item, ele + [item])
+      dfs(target, [])
+      return res
 
 if __name__ == '__main__':
 	print(Solution().combinationSum([2,3,6,7], 7))
