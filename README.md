@@ -34,7 +34,7 @@
 015 | [3 Sum](https://leetcode.com/problems/3sum/)         | [Python](./Python/15.3sum.py)       | _O(n^2)_        | _O(1)_          | Medium         || Two Pointers
 016 | [3 Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](./Python/16.3sum-closest.py) | _O(n^2)_       | _O(1)_          | Medium         || Two Pointers
 018| [4 Sum](https://leetcode.com/problems/4sum/)         | [Python](./Python/4sum.py)        | _O(n^3)_    | _O(1)_    | Medium         || Two Pointers
-027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/remove-element.cpp) [Python](./Python/remove-element.py) | _O(n)_      | _O(1)_         | Easy           ||
+027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./Python/remove-element.py) | _O(n)_      | _O(1)_         | Easy           ||
 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./Python/next-permutation.py) | _O(n)_  | _O(1)_          | Medium         || 
 
 ## Bit Manipulation
