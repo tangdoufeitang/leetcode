@@ -26,6 +26,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 006| [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |[Python](./Python/6.zigzag-conversion.py) | _O(n)_ | _O(1)_        | Easy           |||
+028| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./Python/implement-strstr.py) | _O(n + k)_   | _O(k)_  | Easy           || 
 
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -34,6 +35,7 @@
 016 | [3 Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Python](./Python/16.3sum-closest.py) | _O(n^2)_       | _O(1)_          | Medium         || Two Pointers
 018| [4 Sum](https://leetcode.com/problems/4sum/)         | [Python](./Python/4sum.py)        | _O(n^3)_    | _O(1)_    | Medium         || Two Pointers
 027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./C++/remove-element.cpp) [Python](./Python/remove-element.py) | _O(n)_      | _O(1)_         | Easy           ||
+031 | [Next Permutation](https://leetcode.com/problems/next-permutation/)| [Python](./Python/next-permutation.py) | _O(n)_  | _O(1)_          | Medium         || 
 
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -51,6 +53,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 007| [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](./Python/7.reverse-integer.py) | _O(1)_ | _O(1)_         | Easy           ||
+029| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](./Python/divide-two-integers.py)    | _O(1)_       | _O(1)_         | Medium         ||
 
 ## Greedy
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
