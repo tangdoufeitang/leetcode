@@ -14,6 +14,7 @@
 * [Greedy](https://github.com/tangdoufeitang/leetcode#greedy)
 * [Backtracking](https://github.com/tangdoufeitang/leetcode#backtracking)
 * [Stack](https://github.com/tangdoufeitang/leetcode#stack)
+* [Binary Search](https://github.com/tangdoufeitang/leetcode#binary-search)
 
 
 ## Hash
@@ -21,6 +22,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 001| [Two Sum](https://leetcode.com/problems/two-sum/)      | [Python](./Python/1.two-sum.py)      | _O(n)_         | _O(n)_          | Easy         ||
 003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/3.longest-substring-without-repeating-characters/) |[Python](./Python/3.longest-substring-without-repeating-characters.py) | _O(n)_ | _O(1)_ | Medium ||
+036| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./Python/valid-sudoku.py) | _O(9^2)_         | _O(9)_          | Easy           ||
 
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -70,6 +72,11 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 020| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Python](./Python/valid-parentheses.py) | _O(n)_        | _O(n)_          | Easy           ||
+
+## Binary Search
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+033| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](./Python/search-in-rotated-sorted-array.py) | _O(logn)_ | _O(1)_   | Hard         ||
 
 
 
