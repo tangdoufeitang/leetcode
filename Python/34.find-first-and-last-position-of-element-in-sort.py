@@ -46,3 +46,6 @@ class Solution:
        	if nums[left] != target and nums[right] != target:
        		return [-1, -1]
         return [left, right]
+
+if __name__ == '__main__':
+	print(Solution().searchRange([1,3,5,5,6,7], 5)) #  [2,3]
